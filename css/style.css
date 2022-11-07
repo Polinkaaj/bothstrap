@@ -1,0 +1,348 @@
+:root {
+    --black: #0000;
+    --orange: #D87628;
+    --white: #fff;
+}
+
+@font-face {
+    font-family: 'GardensC';
+    src: url("font/GardensC.otf");
+    src: url("font/GardensC.otf") format("embedded-opentype"), url("font/GardensC.woff") format("woff"), url("font/GardensC.woff2") format("woff2"), url("font/GardensC.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), local('Montserrat-Regular'), url('font/montserrat.woff2') format('woff2'), url('font/montserrat.woff') format('woff'), url('font/montserrat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Medium'), local('Montserrat-Medium'), url('font/montserratmedium.woff2') format('woff2'), url('font/montserratmedium.woff') format('woff'), url('font/montserratmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.gardens,
+h1,
+h2,
+.btn,
+.card-title,
+h4 {
+    font-family: 'GardensC';
+}
+
+.btn {
+    background-color: var(--orange);
+    color: #fff;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 0.5rem 1.7rem;
+    font-size: 25px;
+    border: none;
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #ff8928;
+
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 71px;
+    margin: 95px 0;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 51px;
+    margin-bottom: 100px;
+}
+
+a {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 47px;
+    text-transform: lowercase;
+}
+
+.montserrat-medium {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.krug-1 {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: var(--orange);
+    z-index: -10;
+    font-size: 70px;
+    bottom: 255px;
+    left: 846px;
+}
+
+.podzagolovok {
+    margin-bottom: 50px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar .btn {
+    font-size: 20px;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+.text-circle {
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.montserrat-regular {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+iframe {
+    border: 4px solid var(--orange);
+    border-radius: 100px;
+}
+
+.teleg-1 {
+    margin-bottom: 65px;
+}
+
+.teleg-2 {
+    margin-top: 65px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 40px;
+}
+
+.card-img-top {
+    width: 219px;
+    height: 219px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 78px;
+    height: 78px;
+    background-color: #D87628;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.swiper {
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.dop {
+    font-size: 20px;
+    margin: -10px 0;
+}
+
+.price-card {
+    border: 4px solid #D87628;
+    border-radius: 70px;
+}
+
+.text-bg-primary {
+    background-color: rgba(216, 118, 40, 0.5);
+    border-radius: 70px 70px 0px 0px;
+}
+
+.border-primary {
+    border-color: var(--orange);
+}
+
+.pricing-text {
+    text-align: left;
+}
+
+.card-header:first-child {
+    border-radius: 65px 65px 0 0;
+    width: 100%;
+}
+
+.border-primary {
+    border-color: var(--orange) !important;
+}
+
+
+.pricing {
+    margin: 60px 0;
+}
+
+
+.nav-link:hover {
+    color: var(--orange);
+}
+
+.modal-title {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+li {
+    margin-top: 40px;
+}
+
+.first-li {
+    margin-top: 0;
+}
+
+li::marker {
+    color: #D87628;
+    font-size: 35px;
+}
+
+.btn-modal {
+    margin-bottom: 40px;
+}
+
+.burger-bar {
+    width: 40%;
+}
+
+@media (max-width: 1200px) {
+    .pricing-text {
+        font-size: 20px;
+    }
+
+    .pricing-row {
+        justify-content: center !important;
+    }
+
+    .card-body {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .pricing-text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:768px) {
+    .standart-bar {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+
+
+    .burger-bar {
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 769px) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-color: transparent;
+        color: var(--orange);
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+
+    .navbar .btn {
+        padding: 0.7rem 1rem;
+    }
+
+    .card-img-top {
+        width: 159px;
+        height: 159px;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:426px) {
+    h1 {
+        font-size: 50px;
+        line-height: 51px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 41px;
+    }
+
+    .text-circle {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width:373px) {
+    nav .btn {
+        display: none;
+    }
+}
+
+@media (max-width: 321px) {
+    .text-circle {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 41px;
+        margin-top: 50px;
+    }
+}
